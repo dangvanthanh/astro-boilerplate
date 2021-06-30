@@ -12,5 +12,8 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
+  },
+  "dependencies": {
+    "nanostores": "^0.3.3"
   }
 }

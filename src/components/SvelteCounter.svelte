@@ -1,20 +1,12 @@
 <script>
-  let count = 0
-
-  function add() {
-    count += 1
-  }
-
-  function subtract() {
-    count -=1 
-  }
+  import { counter, increaseCounter, decreaseCounter } from '../store/counter'
 </script>
 
 <div class="counter">
   <h2>🚀 Svelte Counter</h2>
   <div>
-    <button on:click={subtract}>-</button>
-    <pre>{count}</pre>
-    <button on:click={add}>+</button>
+    <button on:click={decreaseCounter}>-</button>
+    <pre>{$counter}</pre>
+    <button on:click={increaseCounter}>+</button>
   </div>
 </div>
