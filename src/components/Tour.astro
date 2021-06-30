@@ -1,0 +1,54 @@
+---
+import { Markdown } from 'astro/components';
+---
+<article>
+    <section>
+        <Markdown>
+            ## 🚀 Project Structure
+
+            Inside of your Astro project, you'll see the following folders and files:
+
+            ```
+            /
+            ├── public/
+            │   ├── robots.txt
+            │   └── favicon.ico
+            ├── src/
+            │   ├── components/
+            │   │   └── Tour.astro
+            |   |   └── PreactCounter.jsx
+            |   |   └── SvelteCounter.svelte
+            |   |   └── VueCounter.vue
+            │   └── pages/
+            │       └── index.astro
+            └── package.json
+            ```
+        </Markdown>
+    </section>
+</article>
+
+<style>
+    section {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        max-width: 70ch;
+    }
+
+    pre,
+    code {
+        font-family: var(--font-mono);
+        background: var(--color-light);
+        border-radius: 4px;
+    }
+
+    pre {
+        padding: 1em 1.5em;
+    }
+
+    code:not(.tree) {
+        padding: 0.125em;
+        margin: 0 -0.125em;
+    }
+</style>
