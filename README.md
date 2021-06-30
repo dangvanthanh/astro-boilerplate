@@ -1,5 +1,7 @@
 # [Astro](https://astro.build) Boilerplate
 
+![](screenshot.png)
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
