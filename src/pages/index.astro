@@ -1,5 +1,4 @@
 ---
-import Tour from '../components/Tour.astro';
 import VueCounter from '../components/VueCounter.vue';
 import { PreactCounter } from '../components/PreactCounter.jsx';
 import SvelteCounter from '../components/SvelteCounter.svelte';
@@ -10,7 +9,7 @@ import SvelteCounter from '../components/SvelteCounter.svelte';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Astro</title>
+    <title>Web Components</title>
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
@@ -34,13 +33,9 @@ import SvelteCounter from '../components/SvelteCounter.svelte';
 <body>
     <main>
         <header>
-            <div>
-                <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-                <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-            </div>
+            <h1>Web Components</h1>
         </header>
 
-        <Tour />
         <VueCounter:visible />
         <PreactCounter:visible />
         <SvelteCounter:visible />

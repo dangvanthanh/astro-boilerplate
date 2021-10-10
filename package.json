@@ -7,13 +7,13 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "astro": "^0.15.3"
+    "astro": "^0.20.9"
   },
   "prettier": {
     "semi": false,
     "singleQuote": true
   },
   "dependencies": {
-    "nanostores": "^0.3.3"
+    "nanostores": "^0.4.8"
   }
 }
